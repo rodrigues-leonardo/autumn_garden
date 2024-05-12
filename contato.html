@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autumn Garden</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="navegacao.js" defer></script>
+    <link rel="shortcut icon" href="img/logo-autumn-garden.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header"><!--Inicio header -->
+        <div class="header-img">
+            <a href="index.html"><h1 class="titulo">AUTUMN GARDEN</h1></a>
+        </div>
+    </header><!-- Fim header -->
+
+        <section class="container">
+            <div class="container-menu none"><a href="#"><img src="img/list.svg" class="menu"></a></div>
+            <div class="header-menu" id="header-menu">
+                <a href="index.html" class="header-menu-links">Home</a>
+                <a href="recomendacoes.html" class="header-menu-links">Recomendações</a>
+                <a href="favoritos.html" class="header-menu-links">Favoritos do mês</a>
+                <a href="sobre.html" class="header-menu-links">Sobre nós</a>
+                <a href="contato.html" class="header-menu-links">Contato</a>
+            </div>
+
+            <div class="header-borda"></div>
+        
+            <h3 class="contato">Contate-nos!</h3>
+            <p class="contato-texto">Por favor envie uma mensagem! Ficaremos felizes de responder assim que possível.</p>
+            
+            <section class="contato-container">
+                <form action="https://formsubmit.co/contato@autumngarden.com.br" method="POST">
+                    <label for="" class="contato-label">
+                        <span class="contato-titulo">Nome:</span>
+                        <input type="text" name="name" placeholder="Digite o seu nome..." required>
+                    </label>
+                    <label for="" class="contato-label">
+                        <span class="contato-titulo">Email:</span>
+                        <input type="email" name="email" placeholder="Digite o seu email..." required>
+                    </label>
+                    <label for="" class="contato-label">
+                        <span class="contato-titulo">Deixe sua mensagem:</span>        
+                        <textarea name="Mensagem" placeholder="Digite sua mensagem..." required></textarea>
+                    </label>
+                    <button class="contato-btn" type="submit">Enviar</button>
+                </form>
+            </section>
+
+            
+        </section>
+    <footer class="rodape">
+        <img src="img/logo-autumn-garden.png" alt="" class="rodape-img">
+        <h2 class="rodape-titulo">AUTUMN GARDEN</h2>
+        <p class="rodape-texto">Siga nossas redes sociais:</p>
+        <a href="https://www.tiktok.com/@dailyfersi" class="rodape-socialMedia"><img src="img/tiktok.svg" alt="" class="rodape-socialMedia-img"></a>
+        <p class="rodape-copyright">&copy;2024 - Autumn Garden - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
